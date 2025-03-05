@@ -1,0 +1,26 @@
+#free particle:
+def Psi(                        x,             t,   w,      v,                                                  phase=0):pass
+def Psi_box(                    x,             t,   w,                     m=0,                                 phase=0):pass
+def Packet(                     x,             t,   w,      N,v0,K,                                             phases=lambda v:0):pass
+def Packet_box(                 x,             t,   w,                     M1,M2):pass
+def psi_harmonic(               x,                  m,                     n,a_n):pass
+def Psi_harmonic(               x,             t,   m,                     n,a_n,                               phase=0):pass
+def Packet_harmonic(            x,             t,   m,                     N1,N2): pass
+def Psi_2d(                     X,             t,   w,      V,                                                  phase=0):pass
+def Psi_box_2d_x(               X,             t,   w,                     m=0,                                 phase=0):pass
+def Psi_box_2d_y(               X,             t,   w,                     n=0,                                 phase=0):pass
+def Psi_box_2d(                 X,             t,   w,                     m,n):pass
+def Packet_box_2d(              X,             t,   w_0,                   q_mean,q_spread):pass
+def Packet_2d(                  X,             t,   w,      V0,dV,N):pass
+def Psi_hydrogen_spherical(     X,             t,   w,                     n,l,m,                               phase=0):pass
+def Psi_hydrogen_cartesian(     X,             t,   w,                     n,l,m,                               phase=0):pass
+def Packet_hydrogen(            X,             t,   w,                     n_mean,n_s,l_mean,l_s,m_mean,m_s):pass
+def Packet_hydrogen2(           X,             t,   w,                     n_mean,n_s,l_mean,l_s,m_mean,m_s,initial):pass
+def Psi_triangle(               X,             t,   m,                     q,r):pass
+def Psi_triangle_2(             X,             t,   m,                     q,r):pass
+def Psi_m_circular(             X,             t,   w_0,    J,             n,N):pass
+
+
+
+def Packet_attatched(P1,P2_data,data_init,parameters):pass
+def Packet_attatched_gs(P1,P2_data,data_init,parameters):pass
